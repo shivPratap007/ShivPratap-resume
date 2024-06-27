@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Resume
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my resume, showcasing my skills, experience, and qualifications.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This resume is built using HTML, CSS, and possibly JavaScript to create a visually appealing and informative representation of my professional background.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Structured Sections:** Organized into clear sections such as Education, Work Experience, Skills, Projects, etc.
+- **Responsive Design:** Optimized for various screen sizes using responsive web design principles.
+- **Interactive Elements:** Links to my LinkedIn profile, GitHub repositories, or other relevant professional profiles.
+- **Custom Styling:** Designed with custom CSS or frameworks like Bootstrap to enhance readability and visual appeal.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- HTML5
+- CSS3 (potentially using frameworks like Bootstrap for styling)
+- JavaScript (if interactive elements are included)
+- Any other relevant technologies specific to the resume's implementation.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Getting Started
+
+To view or use this resume:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/resume.git
+   cd resume
