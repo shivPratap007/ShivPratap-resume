@@ -1,7 +1,5 @@
-// import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-// import project3 from "../assets/projects/project-3.jpg";
-// import project4 from "../assets/projects/project-4.jpg";
+
 
 export const HERO_CONTENT = `I'm a passionate full stack developer dedicated to crafting exceptional web experiences. With a solid foundation in both front-end and back-end development, I specialize in leveraging technologies like React, Next.js, Node.js, and various databases including MySQL, PostgreSQL, and MongoDB. I thrive on solving complex problems and turning ideas into scalable solutions that drive business growth and user engagement. Beyond coding, I enjoy staying updated with emerging technologies, contributing to open-source projects, and collaborating with teams to deliver impactful results`;
 
