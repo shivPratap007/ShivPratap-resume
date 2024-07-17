@@ -27,7 +27,7 @@ export default function Hero() {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="tracking-tight mb-8 text-transparent bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl"
+              className="tracking-tight mb-12 text-transparent bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl"
             >
               Full Stack Developer
             </motion.span>

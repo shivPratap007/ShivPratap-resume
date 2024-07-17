@@ -15,6 +15,7 @@ export default function Projects() {
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-10 flex flex-wrap lg:justify-center">
+            {/* <a href={project.link} target="_blank" className="w-32 h-32"> */}
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -22,17 +23,20 @@ export default function Projects() {
               className="w-full lg:w-1/4 "
             >
               {" "}
-              <motion.img
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 0.9 }}
-                transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                src={project.image}
-                width={150}
-                height={350}
-                className="mb-6 rounded"
-                alt={project.title}
-              />
+              <a href={project.link} target="_blank">
+                <motion.img
+                  whileHover={{ scale: 1.2 }}
+                  whileTap={{ scale: 0.9 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                  src={project.image}
+                  width={150}
+                  height={350}
+                  className="mb-6 rounded hover:cursor-pointer"
+                  alt={project.title}
+                />
+              </a>
             </motion.div>
+            {/* </a> */}
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
